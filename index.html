@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perpustakaan INSTIKI</title>
-    link
+    <!-- link style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- header -->
     <header>
+      <!-- navigation -->
       <nav>
         <img src="Images/logo-warna.svg" alt="logo-warna" />
-        <ul>
+        <ul class="navigation">
           <li><a href="#">Beranda</a></li>
           <li><a href="#">Daftar Buku</a></li>
           <li><a href="#">Peminjaman</a></li>
@@ -27,10 +37,11 @@
       </nav>
     </header>
 
+    <!-- main content -->
     <main>
       <!-- beranda -->
-      <section>
-        <article class="beranda">
+      <section class="beranda">
+        <article>
           <h1>Perpustakaan INSTIKI</h1>
           <p>
             "Ketika aku mendapatkan kartu perpustakaan, saat itulah hidupku
@@ -45,7 +56,8 @@
         <h1>Daftar Buku</h1>
         <p>
           Koleksi-koleksi kami yang dibaca oleh banyak pengunjung perpustakaan.
-          Cari. Pinjam. Kami harap Anda menyukainya
+          <br />
+          Cari dan Pinjam Kami harap Anda menyukainya
         </p>
         <div class="img-content">
           <div class="content-1">
@@ -83,9 +95,12 @@
       </section>
     </main>
 
+    <!-- footer -->
     <footer>
-      <img src="Images/logo-putih.svg" alt="logo-putih" />
-      <section class="content-footer">
+      <div class="logo-putih">
+        <img src="Images/logo-putih.svg" alt="logo-putih" />
+      </div>
+      <article class="content-footer">
         <div class="informasi">
           <h1>Perpustakaan INSTIKI</h1>
           <ul>
@@ -110,8 +125,10 @@
           <p>Senin - Sabtu:</p>
           <p>Pukul 08.00 – 20.00 WITA</p>
         </div>
-      </section>
-      <p class="copyright">© 2023 — INSTIKI</p>
+      </article>
+      <div class="copyright">
+        <p>© 2023 — INSTIKI</p>
+      </div>
     </footer>
 
     <!-- ion-icon -->
